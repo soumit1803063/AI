@@ -49,7 +49,7 @@ def main():
         [Node(7,'g',c=1)],
         ]
     problem=Problem(graph,'s','g')
-    initial_node=Node(0,'s',0,0,10000000)
+    initial_node=Node(0,'s',0,0,0)
     res=bfs(problem,initial_node) 
     print("Goal Node: ",res.state) 
     print("Path Cost: ",res.g) 
