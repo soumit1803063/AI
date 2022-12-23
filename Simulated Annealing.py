@@ -33,7 +33,8 @@ def makeRandomGraph():
 	data = list(range(1, 10000))
 	random.shuffle(data)
 	lst=[]
-
+	i=0;
+	j=randint(2, b)
 def main():
 	graph=[[Node(1,5)],
 			[Node(2,6)],
