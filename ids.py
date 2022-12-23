@@ -67,7 +67,7 @@ def main():
 	
 	goal_depth,res=ids(problem, initial_node)
 	print("Goal Node: ",res.ID)
-	print("Goal depth: ",res.ID)
+	print("Goal depth: ",goal_depth)
 	print("Path Cost: ",res.g)
 	printPath(res)
 		
