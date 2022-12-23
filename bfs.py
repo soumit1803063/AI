@@ -16,10 +16,11 @@ class Problem:
 def goalTest(problem,node):
     return node.state==problem.goal_state
 def queuingFn(problem,nodes,node):
-    for child in problem.graph[node.ID]:
-        child.g=node.g+child.c
-        child.p=node
-        nodes.append(child)
+    if node.ID< len(problem.graph):
+        for child in problem.graph[node.ID]:
+            child.g=node.g+child.c
+            child.p=node
+            nodes.append(child)
     return nodes   
 
 def bfs(problem,initial_node):

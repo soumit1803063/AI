@@ -19,7 +19,7 @@ def goalTest(problem,node):
 def queuingFn(nodes,node,problem,max_depth):
 	if node.depth>max_depth:
 		return nodes
-	if node.ID<= len(problem.graph): 
+	if node.ID< len(problem.graph): 
 		for e in problem.graph[node.ID]:
 			e.depth=node.depth+1
 			e.g=e.c+node.g

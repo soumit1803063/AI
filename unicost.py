@@ -17,7 +17,7 @@ def goalTest(problem,node):
 	return problem.goal_state==node.state	
 
 def queuingFn(nodes,node,problem):
-	if node.ID<= len(problem.graph): 
+	if node.ID< len(problem.graph): 
 		for e in problem.graph[node.ID]:
 			if e.g>e.c+node.g:
 				e.g=e.c+node.g

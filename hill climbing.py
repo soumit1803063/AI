@@ -12,7 +12,7 @@ class Problem:
 def EvaluationFn(node,problem):
 	max_val=-inf
 	candidates=[]
-	if node.ID<=len(problem.graph):
+	if node.ID<len(problem.graph):
 		for successor in problem.graph[node.ID]:
 			if successor.val>max_val:
 				candidates=[]
@@ -40,6 +40,6 @@ def main():
 	problem=Problem(graph)	
 	curr_node=Node(0,3)
 	res=hc(problem, curr_node)
-	print(res.ID)
-	print(res.val)	
+	print("maxima: ",res.ID)
+	print("value:",res.val)	
 main()	
