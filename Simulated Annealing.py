@@ -1,9 +1,3 @@
-
-#incomplete code
-#incomplete code
-#incomplete code
-
-
 from math import inf
 from math import e
 from random import randint
@@ -35,12 +29,6 @@ def sa(problem,curr_node):
 			curr_node=next_node
 			curr_node.probablity=e**(E*T)
 
-def makeRandomGraph():
-	data = list(range(1, 10000))
-	random.shuffle(data)
-	lst=[]
-	i=0;
-	j=randint(2, b)
 def main():
 	graph=[[Node(1,5)],
 			[Node(2,6)],
