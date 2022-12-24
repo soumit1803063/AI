@@ -23,3 +23,4 @@ graph=[[Node(1,'b',4,12),Node(2,'c',3,11),],
 	[Node(6,'g',5,0)],
 	[Node(4,'e',2,4)],
 			]
+https://colab.research.google.com/drive/1Bwsm-4Y3l4ItAL8yqGCu4buV_bP1RcX6?usp=sharing
