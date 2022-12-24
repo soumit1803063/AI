@@ -36,7 +36,7 @@ def printPath(node):
     printPath(node.p)
     print(node.state,end=" ") 
 
-def unicost(problem,initial_node):
+def astar(problem,initial_node):
 	nodes = PriorityQueue()
 	nodes.put((initial_node.g+initial_node.h,initial_node))
 	while True:
@@ -58,7 +58,7 @@ def main():
 			]
 	problem=Problem(graph,'s','g')
 	initial_node=Node(0,'s',0,14,0)
-	res=unicost(problem, initial_node)
+	res=astar(problem, initial_node)
 	print("Goal Node: ",res.ID)
 	print("Path Cost: ",res.g)
 	printPath(res)
