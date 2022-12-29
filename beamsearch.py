@@ -8,6 +8,8 @@ class Node:
 		self.c=c
 		self.h=h
 		self.p=p
+	def __lt__(self, other):
+		return ((self.h) < (other.h))	
 class Problem:
 	def __init__(self,graph=None,initial_state=None,goal_state=None,max_frontier_size=None):
 		self.graph=graph

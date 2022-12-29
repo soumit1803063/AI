@@ -68,6 +68,7 @@ def printPath2(node):
     printPath2(node.p2)
 
 def main():
+	#undirected graph
     graph=[
         [Node(1,'a',c=5),Node(2,'b',c=2),Node(3,'c',c=4)],#0
         [Node(4,'d',c=9),Node(5,'e',c=4),Node(0,'s',c=5)],#1
