@@ -29,6 +29,7 @@ def hc(problem,curr_node):
 		curr_node=next_node
 
 def main():
+	#directed graph
 	graph=[[Node(1,5)],
 			[Node(2,6)],
 			[Node(3,10)],

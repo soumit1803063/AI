@@ -47,6 +47,7 @@ def dls(problem,initial_node,max_depth):
 				
 
 def main():
+	#directed graph
 	graph=[[Node(1,'a',5),Node(2,'b',2),Node(3,'c',4)],
 			[Node(4,'d',9),Node(5,'e',4)],
 			[Node(7,'g',6)],

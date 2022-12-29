@@ -52,6 +52,7 @@ def printPath(node):
     printPath(node.p)
     print(node.state,end=" ")  
 def main():
+	#directed graph
 	graph=[[Node(1,'a',8,1),Node(2,'b',4,5),Node(3,'c',3,8)],
 			[Node(4,'d',inf,3),Node(5,'e',inf,7)],
 			[Node(7,'g',0,4)],

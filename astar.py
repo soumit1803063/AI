@@ -49,6 +49,7 @@ def astar(problem,initial_node):
 			
 
 def main():
+	#directed graph
 	graph=[[Node(1,'b',4,12),Node(2,'c',3,11),],
 	[Node(3,'f',6,11),Node(4,'e',12,4),],
 	[Node(4,'e',10,4),Node(5,'d',7,6),],
