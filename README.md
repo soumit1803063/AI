@@ -8,17 +8,20 @@ Welcome to the AI Algorithms Repository! This repository contains various search
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Algorithms Included](#algorithms-included)
+- [Algorithm Groups](#algorithm-groups)
+  - [Uninformed Search Algorithms](#uninformed-search-algorithms)
+  - [Informed Search Algorithms](#informed-search-algorithms)
+  - [Local Search Algorithms](#local-search-algorithms)
+- [Complexity Comparison](#complexity-comparison)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Algorithm Groups](#algorithm-groups)
-- [Complexity Comparison](#complexity-comparison)
-- [Contributing](#contributing)
-- [License](#license)
+  - [Required Packages](#required-packages)
 
 ## Introduction
 
 This repository contains a collection of AI search algorithms grouped into three main categories: Uninformed Search Algorithms, Informed Search Algorithms, and Local Search Algorithms. Each algorithm is implemented in its own Python file, making it easy to study and understand the specifics of each method.
+
+## Algorithm Groups
 
 ### Uninformed Search Algorithms
 
@@ -40,7 +43,7 @@ This repository contains a collection of AI search algorithms grouped into three
 1. **Hill Climbing (`hill_climbing.py`)**: Iteratively makes small changes to the solution to find the best result.
 2. **Simulated Annealing (`Simulated Annealing.py`)**: Probabilistic technique for approximating the global optimum of a given function.
 
-### Complexity Comparison
+## Complexity Comparison
 
 | Algorithm                  | Time Complexity        | Space Complexity       | Optimal | Complete |
 |----------------------------|------------------------|------------------------|---------|----------|
