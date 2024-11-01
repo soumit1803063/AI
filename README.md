@@ -1,6 +1,5 @@
 # AI Algorithms Repository
 
-![Owner Avatar](https://avatars.githubusercontent.com/u/xxx?s=200&v=4)  
 **Owner:** Soumit Das  
 **Contact:** [1803063soumit@gmail.com](mailto:1803063soumit@gmail.com)
 
